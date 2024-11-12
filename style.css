@@ -419,6 +419,7 @@ font-family: sans-serif;
     background:rgb(184, 68, 184);
     margin-top: 50px;
     padding-top: 50px;
+    padding-bottom: 80px;
 }
 .contactus{
    text-align: center;
@@ -473,7 +474,9 @@ font-family: sans-serif;
     font-weight: 500;
  }
  .footers{
+    
     margin:auto;
+  
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -518,6 +521,26 @@ font-family: sans-serif;
     color:white;
     text-align: center;
  }
+ #foot{
+    margin-left: 20px;
+ }
+ .colors{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    gap:8px;
+ }
+ .footer1 .colors img{
+    width:40px;
+    height:40px;
+    border:1px gray solid;
+    padding: 1px;
+ }
+
  .footer2{
     border-top: 2px solid white ;
     background:rgb(54, 52, 52);
